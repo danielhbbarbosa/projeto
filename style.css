@@ -1,0 +1,139 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: "Montserrat", sans-serif;
+    box-sizing: border-box; 
+}
+
+body {
+    height: 100vh;
+    overflow: hidden;
+}
+
+header {
+    margin: 44px 0px 76px 144px;
+}
+
+.link-header {
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #989D9C;
+    cursor: pointer;
+    margin-right: 23px;
+    text-decoration: none;
+}
+
+.button-header {
+    background-color: #665AE1;
+    border-radius: 20.5px;
+    width: 130px;
+    height: 41px;
+    border: none;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 29px;
+    color: #ffffff;
+    cursor: pointer;
+}
+
+.img-logo {
+    width: 568px;
+    height: 500px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 111px;
+}
+
+
+.text {
+    margin-left: 86px;
+}
+
+h1 {
+    text-transform: uppercase;
+    font-weight: 900;
+    font-size: 100px;
+    line-height: 122px;
+    color: #515151;
+}
+
+h2 {
+    font-weight: 500;
+    font-size: 58px;
+    line-height: 71px;
+    color: #515151;
+}
+
+p {
+    width: 515px;
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 29px;
+    color: #848484;
+    margin: 32px 0px 65px 0px;
+    text-align: justify;
+}
+
+.button-main {
+    width: 239px;
+    height: 64px;
+    background-color: #ADFF00;
+    border-radius: 50px;
+    border: none;
+    cursor: pointer;
+    filter: drop-shadow(0px 4px 4px rgb(0, 0, 0, 0.25));
+    font-weight: 700;
+    line-height: 34px;
+    font-size: 28px;
+    text-transform: uppercase;
+}
+
+@media screen and (max-width: 1200px) {
+    
+    header {
+        display: none;
+        margin: 0;
+    }    
+
+    main {
+        flex-direction: column;
+        margin: 20vh 0;
+    }
+
+    
+    .img-logo {
+        max-width: 354px;
+        height: auto;
+    }
+    
+    .text {
+        text-align: center;
+        margin: 5vh 0 0 0;
+    }
+
+    h1 {
+        font-size: 50px;
+        line-height: 30px;
+    }
+
+    h2 {
+        font-size: 30px;
+        line-height: auto;
+    }
+    
+    p {
+        display: none;
+    }
+
+    .button-main {
+        line-height: auto;
+    }
+    
+}
