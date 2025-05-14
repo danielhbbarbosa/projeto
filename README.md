@@ -16,7 +16,7 @@
 <br>
 
 <h3>Desktop:</h3>
-<img src="https://github.com/danielhbbarbosa/projeto/blob/master/img/desktop.png?raw=true" width= "500px">
+<img src="https://github.com/danielhbbarbosa/projeto/blob/main/img/desktop.png?raw=true" width= "500px">
 
 <h3>Mobile:</h3>
-<img src="https://github.com/danielhbbarbosa/projeto/blob/master/img/mobile.png?raw=true" width= "250px">
+<img src="https://github.com/danielhbbarbosa/projeto/blob/main/img/mobile.png?raw=true" width= "250px">
